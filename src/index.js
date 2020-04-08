@@ -1,4 +1,5 @@
 import Api from "./api"
+import { CustomError, ValidationError } from "./errors"
 import ErrorLogger from "./error-logger"
 import EventConnection from "./event-connection.jsx"
 import EventCreated from "./event-created.jsx"
@@ -16,6 +17,7 @@ import UpdatedAttribute from "./result"
 
 export {
   Api,
+  CustomError,
   ErrorLogger,
   EventConnection,
   EventCreated,
@@ -29,5 +31,6 @@ export {
   Params,
   Result,
   SourceMapsLoader,
-  UpdatedAttribute
+  UpdatedAttribute,
+  ValidationError
 }
