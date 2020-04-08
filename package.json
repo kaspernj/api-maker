@@ -1,0 +1,35 @@
+{
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  },
+  "name": "api-maker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaspernj/api-maker.git"
+  },
+  "author": "kaspernj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaspernj/api-maker/issues"
+  },
+  "homepage": "https://github.com/kaspernj/api-maker#readme",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-react": "^7.9.4",
+    "qs": "^6.9.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
