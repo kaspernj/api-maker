@@ -15,7 +15,7 @@ const Result = require("./result")
 const SourceMapsLoader = require("./source-maps-loader")
 const UpdatedAttribute = require("./result")
 
-module.exports = {
+export {
   Api,
   CustomError,
   ErrorLogger,

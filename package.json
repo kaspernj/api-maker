@@ -11,10 +11,7 @@
   "name": "api-maker",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
-  "scripts": {
-    "build": "webpack"
-  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kaspernj/api-maker.git"
