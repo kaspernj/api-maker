@@ -15,7 +15,7 @@ import Result from "./result"
 import SourceMapsLoader from "./source-maps-loader"
 import UpdatedAttribute from "./result"
 
-export default {
+module.exports = {
   Api,
   CustomError,
   ErrorLogger,
