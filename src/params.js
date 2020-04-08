@@ -1,5 +1,4 @@
 import formSerialize from "form-serialize"
-import KeyValueStore from "api-maker/key-value-store"
 import merge from "merge"
 import qs from "qs"
 
@@ -18,23 +17,6 @@ export default class Params {
     const newPath = `${location.pathname}?${newParams}`
 
     AppHistory.push(newPath)
-  }
-
-  static async getCachedParams(paramName, args = {}) {
-    const oldQuery = await KeyValueStore.get(paramName)
-    const params = Params.parse()
-
-    if (params && paramName in params) {
-      return params[paramName]
-    } else if (oldQuery) {
-      return oldQuery
-    } else {
-      return args.default || {}
-    }
-  }
-
-  static async setCachedParams(paramName, qParams) {
-    return await KeyValueStore.set(paramName, qParams)
   }
 
   static serializeForm(form) {

@@ -1,4 +1,4 @@
-import SourceMapsLoader from "api-maker/source-maps-loader"
+import SourceMapsLoader from "./source-maps-loader"
 
 export default class ErrorLogger {
   constructor() {
