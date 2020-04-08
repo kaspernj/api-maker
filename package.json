@@ -11,7 +11,7 @@
   "name": "api-maker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/main.js",
   "scripts": {
     "build": "webpack"
   },
