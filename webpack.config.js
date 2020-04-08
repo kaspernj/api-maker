@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "production",
   module: {
     rules: [
       {
@@ -7,5 +8,8 @@ module.exports = {
         use: "babel-loader"
       }
     ]
+  },
+  resolve: {
+    extensions: [".js", ".jsx"],
   }
 }
