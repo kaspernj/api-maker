@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/kaspernj/api-maker/issues"
   },
-  "homepage": "https://github.com/kaspernj/api-maker#readme"
+  "homepage": "https://github.com/kaspernj/api-maker#readme",
+  "peerDependencies": {
+    "form-serialize": "^0.7.2",
+    "merge": "^1.2.1",
+    "prop-types": "^15.7.2",
+    "prop-types-exact": "^1.2.0",
+    "qs": "^6.9.3",
+    "react": "^16.13.1",
+    "source-map": "^0.7.3",
+    "stacktrace-parser": "^0.1.9"
+  }
 }
