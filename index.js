@@ -7,6 +7,7 @@ export {
   EventDestroyed,
   EventEmitterListener,
   EventListener,
+  EventModelClass,
   EventUpdated,
   FormDataToObject,
   Logger,

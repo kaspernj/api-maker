@@ -6,6 +6,7 @@ import EventCreated from "./event-created"
 import EventDestroyed from "./event-destroyed"
 import EventEmitterListener from "./event-emitter-listener"
 import EventListener from "./event-listener"
+import EventModelClass from "./event-model-class"
 import EventUpdated from "./event-updated"
 import FormDataToObject from "./form-data-to-object"
 import Logger from "./logger"
@@ -24,6 +25,7 @@ export {
   EventDestroyed,
   EventEmitterListener,
   EventListener,
+  EventModelClass,
   EventUpdated,
   FormDataToObject,
   Logger,
