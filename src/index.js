@@ -11,6 +11,7 @@ import EventUpdated from "./event-updated"
 import FormDataToObject from "./form-data-to-object"
 import Logger from "./logger"
 import ModelName from "./model-name"
+import MoneyFormatter from "./money-formatter"
 import Params from "./params"
 import Result from "./result"
 import SourceMapsLoader from "./source-maps-loader"
@@ -30,6 +31,7 @@ export {
   FormDataToObject,
   Logger,
   ModelName,
+  MoneyFormatter,
   Params,
   Result,
   SourceMapsLoader,

@@ -12,6 +12,7 @@ export {
   FormDataToObject,
   Logger,
   ModelName,
+  MoneyFormatter,
   Params,
   Result,
   SourceMapsLoader,
